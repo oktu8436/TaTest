@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainLink {
+    @apply text-center w-fit rounded-xl bg-cyan-600 hover:bg-cyan-700 px-10 py-2;
+}
+.mainSection {
+    @apply max-w-5xl mx-auto flex flex-col items-center;
+}
+.svgFigure {
+    @apply my-5 px-3 flex items-center;
+}
+.mainH2 {
+    @apply text-3xl text-center;
+}
+.svgFigcaption {
+    @apply flex flex-col justify-between text-xl w-1/2 gap-20;
+}
+.inputErr {
+    @apply text-red-200 bg-slate-900 placeholder-red-300 focus:border-red-500 focus:ring-red-500 border-red-300 w-full rounded-md text-sm;
+}
+.inputOk {
+    @apply text-gray-100 bg-slate-900 focus:border-cyan-600 focus:ring-cyan-600 placeholder:text-gray-400 w-full rounded-md text-sm;
+}
+.authForm {
+    @apply mx-auto my-6 w-full max-w-md rounded-xl bg-slate-800 p-6 shadow-xl backdrop-blur-xl;
+}
+.btnOk {
+    @apply flex w-full items-center justify-center rounded-md bg-cyan-600 py-2 px-4 font-semibold text-white shadow-lg transition duration-150 ease-in-out hover:bg-cyan-700 hover:shadow-xl focus:shadow-xl focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2;
+}
+.addCh {
+    @apply mt-5 w-fit rounded-md bg-green-900 py-2 px-4 font-semibold text-white hover:bg-green-800 cursor-pointer;
+}
+.delCh {
+    @apply inline mt-5 w-fit rounded-md bg-red-900 py-2 px-4 font-semibold text-white hover:bg-red-800 absolute bottom-0 left-52 cursor-pointer;
+}
